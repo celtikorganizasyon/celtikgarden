@@ -43,15 +43,6 @@ footer{background:#111;color:#ddd;text-align:center;padding:26px}
 </section>
 
 <section>
-  <h2>2026 Başlangıç Fiyatları</h2>
-  <div class="cards">
-    <div class="card"><div class="price">150.000 TL</div><p>300 kişi / Hafta içi</p></div>
-    <div class="card"><div class="price">180.000 TL</div><p>300 kişi / Hafta sonu</p></div>
-    <div class="card"><div class="price">200.000 TL</div><p>500 kişi / Hafta sonu</p></div>
-  </div>
-</section>
-
-<section>
   <h2>Galeri</h2>
   <div class="gallery">
     <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop" alt="">
