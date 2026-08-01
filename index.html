@@ -1,63 +1,206 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Koru Garden | Bursa Kır Düğünü</title>
-<style>
-body{font-family:Arial,sans-serif;margin:0;background:#f7f7f7;color:#333}
-header{background:#1f3b2d;color:#fff;padding:60px 20px;text-align:center}
-header h1{font-size:42px;margin:0}
-header p{font-size:18px;opacity:.9}
-section{padding:40px 20px;max-width:1100px;margin:auto}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
-.card{background:#fff;padding:22px;border-radius:16px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
-.price{font-size:26px;font-weight:700;color:#1f3b2d}
-.cta{display:inline-block;background:#25d366;color:#fff;padding:14px 22px;border-radius:999px;text-decoration:none;font-weight:700}
-footer{background:#111;color:#ddd;text-align:center;padding:26px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-.gallery img{width:100%;height:180px;object-fit:cover;border-radius:14px}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koru Garden | Bursa Çeltikköy Kır Düğünü & Özel Davet Bahçesi</title>
+    <meta name="description" content="Bursa Osmangazi Çeltikköy'de doğayla iç içe, 300-900 kişilik kır düğünü, nişan, kına ve özel davetleriniz için Koru Garden sizleri bekliyor.">
+    <meta name="keywords" content="Bursa Kır Düğünü, Çeltikköy Düğün Salonu, Osmangazi Davet Bahçesi, Koru Garden Bursa, Nişan Kına Mekanı">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>Koru Garden</h1>
-  <p>Bursa'da kır düğünü, kına, nişan ve özel davet organizasyonları</p>
-</header>
 
-<section>
-  <h2>Hayalinizdeki Kır Düğünü</h2>
-  <p>Doğanın içinde, şık süslemeler ve profesyonel organizasyon ekibiyle unutulmaz anlar yaşayın.</p>
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-title">Koru Garden</span>
+                <span class="logo-subtitle">WEDDINGS & EVENTS</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="index.html" class="active">Anasayfa</a>
+                <a href="hakkimizda.html">Hakkımızda</a>
+                <a href="iletisim.html">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge">BURSA OSMANGAZİ ÇELTİKKÖY</span>
+            <h1>Doğanın Kalbinde Unutulmaz Masallar</h1>
+            <p>300 - 900 kişilik geniş kapasitemiz, masalsı ampul aydınlatmalarımız ve büyüleyici kır atmosferimizle en özel gününüze ev sahipliği yapıyoruz.</p>
+            <div class="hero-buttons">
+                <a href="hakkimizda.html" class="btn btn-outline">Mekanı Keşfet</a>
+            </div>
+        </div>
+    </section>
+	
+	<section class="section gallery-section">
+    <div class="container">
+        <div class="section-title">
+            <span>MEKANIMIZDAN KARELER</span>
+            <h2>Koru Garden Atmosferi</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="gallery-grid">
+			<div class="gallery-item">
+                <img src="images/9.jpeg" alt="Koru Garden Giriş" loading="lazy">
+            </div>
+			<div class="gallery-item">
+                <img src="images/2.jpeg" alt="Koru Garden Nikah Kürsüsü ve Sahne Alanı" loading="lazy">
+            </div>
+			<div class="gallery-item">
+                <img src="images/3.jpeg" alt="Koru Garden Çiçekli Geliş Yolu" loading="lazy">
+            </div>
+			<div class="gallery-item">
+                <img src="images/4.jpeg" alt="Koru Garden Gece Aydınlatması ve Beyaz Masalar" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="images/1.jpeg" alt="Koru Garden Ahşap Masa Konsepti" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="images/5.jpeg" alt="Koru Garden Çiçekli Fotoğraf Çekim Alanı" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="images/7.jpeg" alt="Koru Garden Kız İsteme Hatırası Köşesi" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="images/8.jpeg" alt="Koru Garden Tabela" loading="lazy">
+            </div>
+        </div>
+    </div>
 </section>
 
-<section>
-  <h2>Hizmetlerimiz</h2>
-  <div class="cards">
-    <div class="card"><h3>Kır Düğünü</h3><p>300-800 kişilik organizasyonlar</p></div>
-    <div class="card"><h3>Kına Gecesi</h3><p>Konsept süsleme ve sahne</p></div>
-    <div class="card"><h3>Nişan & Söz</h3><p>Şık ve samimi davetler</p></div>
-    <div class="card"><h3>Fotoğraf Çekimi</h3><p>Doğal ve estetik kareler</p></div>
-  </div>
-</section>
+    <!-- Highlights Section -->
+    <section class="section highlights">
+        <div class="container">
+            <div class="section-title">
+                <span>AYRICALIKLARIMIZ</span>
+                <h2>Neden Koru Garden?</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="grid grid-3">
+                <div class="card highlight-card">
+                    <div class="card-icon">🌿</div>
+                    <h3>300 - 900 Kişilik Kapasite</h3>
+                    <p>Geniş aileler ve prestijli davetler için tasarlanmış ferah, doğayla iç içe açık hava organizasyon alanı.</p>
+                </div>
+                <div class="card highlight-card">
+                    <div class="card-icon">👰</div>
+                    <h3>Özel Gelin & Damat Bahçesi</h3>
+                    <p>Çiftlerimizin heyecanlı anlarına konforla hazırlanabileceği, doğa içinde özel tasarlanmış dinlenme bahçesi.</p>
+                </div>
+                <div class="card highlight-card">
+                    <div class="card-icon">📸</div>
+                    <h3>Özel Fotoğraf Köşeleri</h3>
+                    <p>Kız isteme hatırası, ahşap konseptler ve dev anı aynaları ile ölümsüzleşecek en güzel fotoğraf alanları.</p>
+                </div>
+                <div class="card highlight-card">
+                    <div class="card-icon">✨</div>
+                    <h3>Masalsı Gece Aydınlatması</h3>
+                    <p>Sıcak ampul aydınlatmaları ve ağaç ışıklandırmalarıyla gecenize romantik ve büyüleyici bir dokunuş.</p>
+                </div>
+                <div class="card highlight-card">
+                    <div class="card-icon">🔊</div>
+                    <h3>Profesyonel Sahne & Işık</h3>
+                    <p>En son teknoloji ses, canlı müzik altyapısı ve sahne aydınlatma sistemleri ile kesintisiz eğlence.</p>
+                </div>
+                <div class="card highlight-card">
+                    <div class="card-icon">🚗</div>
+                    <h3>Otopark & Vale Hizmeti</h3>
+                    <p>Davetlilerinizin ulaşım ve park stresi yaşamadan konforla giriş yapabileceği geniş otopark alanı.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-  <h2>Galeri</h2>
-  <div class="gallery">
-    <img src="1.jpg" alt="Koru Garden Giriş Takı ve Yürüyüş Yolu">
-    <img src="2.jpg" alt="Masa Düzeni ve Beyaz Sandalyeler">
-    <img src="3.jpg" alt="Ahşap Masa ve Sandalye Konsepti">
-    <img src="4.jpg" alt="Koru Garden Sahne ve Arka Fon">
-    <img src="24.jpg" alt="Yürüyüş Yolu ve Işıklandırma">
-    <img src="27a5ff89-aa75-4bad-81ec-7ecd92419568.jpg" alt="Gece Aydınlatmalı Bahçe Düzeni">
-    <img src="74ffe867-c16d-4317-a87a-2c9009974aef.jpg" alt="Çiçekli Çember Dekoru">
-    <img src="e36f2447-ea56-413f-905e-b3e9db6a3d67.jpg" alt="Aynalı Fotoğraf Alanı">
-    <img src="IMG_0405.jpg" alt="Kız İsteme Hatırası Köşesi">
-    <img src="6afb2a6c-f452-4ae6-aa0a-f71060258838.jpg" alt="Koru Garden Tabela">
-  </div>
-</section>
+    <!-- Content / SEO Section -->
+    <section class="section seo-section bg-light">
+        <div class="container">
+            <div class="seo-grid">
+                <div class="seo-text">
+                    <span>HAYALLERİNİZDEKİ DAVET</span>
+                    <h2>Bursa Çeltikköy Kır Düğünü ve Özel Davet Bahçesi</h2>
+                    <p>Bursa Osmangazi Çeltikköy’de doğayla iç içe, şık ve samimi atmosferiyle hizmet veren <strong>Koru Garden</strong>, hayatınızın en özel günlerine ev sahipliği yapıyor. Düğün, nişan, kına gecesi, söz, kız isteme, sünnet ve kurumsal organizasyonlar için 300'den 900 kişiye kadar farklı davet alanı seçenekleri sunuyoruz.</p>
+                    <p>Doğal ahşap ve modern beyaz napolyon masa konseptlerimiz, masalsı ampul aydınlatmalarımız ve alanında uzman ekibimizle Bursa'da kır düğünü denince akla gelen prestijli adres olmanın gururunu yaşıyoruz.</p>
+                    <a href="iletisim.html" class="btn btn-primary" style="margin-top: 20px;">Bizimle İletişime Geçin</a>
+                </div>
+                <div class="seo-image-box">
+                    <div class="image-frame">
+                        <div class="frame-content">
+                            <h3>Koru Garden</h3>
+                            <p>Çeltikköy / Osmangazi</p>
+                            <span class="badge">Açık Hava & Doğa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-  <p>© 2026 Koru Garden - Bursa</p>
-</footer>
+    <!-- Concept Showcase -->
+    <section class="section concept-section">
+        <div class="container">
+            <div class="section-title">
+                <span>TASARIM VE KONSEPT</span>
+                <h2>Şıklık ve Doğallık Bir Arada</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="grid grid-2">
+                <div class="concept-card">
+                    <h3>Ahşap & Doğa Konsepti</h3>
+                    <p>Doğal ahşap ziyafet masaları, jüt supla detayları ve canlı çiçek süslemeleriyle rustik ve sıcak bir davet atmosferi.</p>
+                </div>
+                <div class="concept-card">
+                    <h3>Modern & Beyaz Zarafeti</h3>
+                    <p>Şık beyaz napolyon sandalyeler, fildişi örtüler ve büyüleyici sarı ışıklar altında ışıltılı ve modern bir şıklık.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Hayalinizdeki Organizasyonu Birlikte Planlayalım</h2>
+            <p>Müsaitlik durumunu öğrenmek ve mekanımızı ziyaret etmek için hemen randevunuzu oluşturun.</p>
+            <a href="iletisim.html" class="btn btn-gold btn-large">Müsaitlik Bilgisi Al</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>Koru Garden</h3>
+                <p>Bursa Osmangazi Çeltikköy’de doğayla iç içe, 300-900 kişi kapasiteli özel kır düğün ve davet bahçesi.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Hızlı Bağlantılar</h4>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>İletişim Bilgileri</h4>
+                <p>📍 Çeltikköy, Yeniyol Cd. No:36, Osmangazi / Bursa</p>
+                <p>📞 0530 039 21 15</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Koru Garden Weddings & Events. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
