@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Koru Garden | Bursa Kır Düğünü</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f7f7f7;color:#333}
+header{background:#1f3b2d;color:#fff;padding:60px 20px;text-align:center}
+header h1{font-size:42px;margin:0}
+header p{font-size:18px;opacity:.9}
+section{padding:40px 20px;max-width:1100px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#fff;padding:22px;border-radius:16px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.price{font-size:26px;font-weight:700;color:#1f3b2d}
+.cta{display:inline-block;background:#25d366;color:#fff;padding:14px 22px;border-radius:999px;text-decoration:none;font-weight:700}
+footer{background:#111;color:#ddd;text-align:center;padding:26px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.gallery img{width:100%;height:180px;object-fit:cover;border-radius:14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Koru Garden</h1>
+  <p>Bursa'da kır düğünü, kına, nişan ve özel davet organizasyonları</p>
+  <br>
+  <a class="cta" href="https://wa.me/905555555555">WhatsApp ile Rezervasyon</a>
+</header>
+
+<section>
+  <h2>Hayalinizdeki Kır Düğünü</h2>
+  <p>Doğanın içinde, şık süslemeler ve profesyonel organizasyon ekibiyle unutulmaz anlar yaşayın.</p>
+</section>
+
+<section>
+  <h2>Hizmetlerimiz</h2>
+  <div class="cards">
+    <div class="card"><h3>Kır Düğünü</h3><p>300-800 kişilik organizasyonlar</p></div>
+    <div class="card"><h3>Kına Gecesi</h3><p>Konsept süsleme ve sahne</p></div>
+    <div class="card"><h3>Nişan & Söz</h3><p>Şık ve samimi davetler</p></div>
+    <div class="card"><h3>Fotoğraf Çekimi</h3><p>Doğal ve estetik kareler</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>2026 Başlangıç Fiyatları</h2>
+  <div class="cards">
+    <div class="card"><div class="price">150.000 TL</div><p>300 kişi / Hafta içi</p></div>
+    <div class="card"><div class="price">180.000 TL</div><p>300 kişi / Hafta sonu</p></div>
+    <div class="card"><div class="price">200.000 TL</div><p>500 kişi / Hafta sonu</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Galeri</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop" alt="">
+    <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1200&auto=format&fit=crop" alt="">
+    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1200&auto=format&fit=crop" alt="">
+  </div>
+</section>
+
+<section style="text-align:center">
+  <h2>Hemen Teklif Alın</h2>
+  <p>Tarih, kişi sayısı ve organizasyon türünü bize gönderin.</p>
+  <a class="cta" href="https://wa.me/905555555555">Teklif İste</a>
+</section>
+
+<footer>
+  <p>© 2026 Koru Garden - Bursa</p>
+</footer>
+</body>
+</html>
