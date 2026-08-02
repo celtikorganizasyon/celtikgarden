@@ -206,7 +206,7 @@ h1, h2, h3, h4 {
 /* Hero Section */
 .hero {
     position: relative;
-    background: linear-gradient(rgba(27, 59, 43, 0.75), rgba(27, 59, 43, 0.85)), url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+    background: linear-gradient(rgba(27, 59, 43, 0.75), rgba(27, 59, 43, 0.85)), url('images/background.avif') center/cover no-repeat;
     height: 80vh;
     min-height: 550px;
     display: flex;
